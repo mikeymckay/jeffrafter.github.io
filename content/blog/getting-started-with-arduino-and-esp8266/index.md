@@ -412,7 +412,7 @@ So far the `package.json` has been useful for hiding away the complexity of some
     "upload": "arduino-cli upload -p /dev/cu.usbserial-0001 --fqbn esp8266:esp8266:nodemcuv2:baud=115200",
     "listen": "cat /dev/cu.usbserial-0001",
     "screen": "echo '[Starting screen, press Ctrl+A Ctrl+\\ to exit]' && sleep 2 && screen /dev/cu.usbserial-0001 9600",
-  "start": "npm run compile && npm run upload && npm run listen"
+    "start": "npm run compile && npm run upload && npm run listen"
   },
   "keywords": [],
   "author": "",
